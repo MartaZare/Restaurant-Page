@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "bivoac";
+}
+
+:root {
+  --background: #000000;
+  --font-color: #fccfb9;
+  --title-color: rgb(18, 18, 18);
+  --shadow-color: rgb(236, 141, 25);
+}
+
+@font-face {
+  font-family: "bivoac";
+  src: url("BivoacReguler.otf");
+  font-style: normal;
+}
+body {
+  height: 100vh;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  width: 100%;
+  background-color: var(--background);
+  opacity: 0.8;
+  color: var(--font-color);
+  font-size: 30px;
+}
+
+.background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+
+#content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  margin: 0px 200px;
+}
+
+.home h1 {
+  font-size: 100px;
+  color: var(--title-color);
+  text-shadow: 5px 5px 10px var(--shadow-color);
+}
+
+.home p {
+  font-size: 18px;
+  color: var(--font-color);
+  background-color: var(--background);
+  padding: 30px;
+  opacity: 0.75;
+  font-family: "Oswald", sans-serif;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 2rem;
+  margin-top: 1000px;
+}
+
+.dish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.dish > img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.dish > p {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.contact {
+  margin-top: 150px;
+}
+
+.contact > h1 {
+  font-size: 50px;
+  text-shadow: none;
+  text-align: center;
+  background-color: var(--background);
+  opacity: 0.8;
+  color: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.info > p {
+  background-color: var(--background);
+  opacity: 0.75;
+  color: #ffffff;
+  padding: 0;
+}
+
+.info > img {
+  border-radius: 0px 0px 20px 20px;
+}
