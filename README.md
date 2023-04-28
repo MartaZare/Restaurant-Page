@@ -1,6 +1,6 @@
 # Restaurant-Page
 
-## [_Live Demo_](https://martazare.github.io/Tic-Tac-Toe/)
+## [_Live Demo_](https://martazare.github.io/Restaurant-Page/)
 
 ### In this project I practiced using Webpack.
 
