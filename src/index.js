@@ -4,6 +4,7 @@ import { createContactPage } from "./contact-page.js";
 
 const nav = document.createElement("div");
 nav.classList.add("nav");
+
 const homeTab = document.createElement("a");
 homeTab.textContent = "Home";
 nav.appendChild(homeTab);

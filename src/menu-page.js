@@ -43,7 +43,7 @@ const createMenuPage = () => {
     dishDiv.classList.add("dish");
 
     let dishImg = document.createElement("img");
-    dishImg.src = `../images/${name.toLowerCase()}.jpeg`;
+    dishImg.src = `../dist/images/${name.toLowerCase()}.jpeg`;
 
     let dishName = document.createElement("h2");
     dishName.innerHTML = `${name}`;

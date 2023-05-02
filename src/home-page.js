@@ -4,7 +4,7 @@ const createHomePage = () => {
 
   let img = document.createElement("img");
   img.classList.add("background");
-  img.src = "../images/restaurant.jpeg";
+  img.src = "../dist/images/restaurant.jpeg";
 
   let header = document.createElement("h1");
 

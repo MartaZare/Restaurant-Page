@@ -19,7 +19,7 @@ const createContactPage = () => {
   infoContainer.appendChild(address);
 
   let img = document.createElement("img");
-  img.src = "../images/map.jpeg";
+  img.src = "../dist/images/map.jpeg";
   infoContainer.appendChild(img);
 
   contactContainer.appendChild(infoContainer);
